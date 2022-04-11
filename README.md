@@ -1,5 +1,48 @@
-### Hello there
-Hi, my name is Caleb and I like to code, I code mostly in python but I do want to expand to other languages. Right now i'm working on a website using django but so far it's a secret.
+```python
+class Berserkware:
+  def __init__(self):
+    self.name = 'Caleb'
+    self.favouriteMusic = 'Green Day'
+    self.favouriteFood = 'Apples'
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=berserkware&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=berserkware&layout=compact&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats)
+  @property
+  def skills(self):
+    return [
+      'Python',
+      'Django',
+    ]
+    
+  @property
+  def hobbies(self):
+    return [
+      'Coding',
+      'Drawing',
+      'Reading',
+      'Biking',
+    ]
+
+  @property
+  def currentProjects(self):
+    return {
+      'Computense': 'A geekforgeeks clone made with Django',
+      '[NAME REDACTED]': 'A Python web library like Django but without the junk you don't need',
+    }
+
+  @property
+  def TODO(self):
+    return [
+      'Learn JavaScript',
+      'Learn C and C++',
+      'Learn Java',
+      'Learn HTML/CSS',
+      'Learn Docker, Kubernetes and NGINX',
+      'Do some Machine Learning',
+    ]
+
+  @property
+  def ContactMe(self):
+    return {
+      'Email': 'berserkware@gmail.com',
+      'Discord': 'King0fLegends#8916',
+    }
+```
