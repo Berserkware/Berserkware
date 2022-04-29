@@ -27,18 +27,7 @@ class Berserkware:
       'Computense': 'A geekforgeeks clone made with Django',
       '[NAME REDACTED]': 'A Python web library like Django but without the junk you don't need',
     }
-    
-  @property
-  def TODO(self):
-    return [
-      'Learn JavaScript',
-      'Learn C and C++',
-      'Learn Java',
-      'Learn HTML/CSS',
-      'Learn Docker, Kubernetes and NGINX',
-      'Do some Machine Learning',
-    ]
-    
+ 
   @property
   def ContactMe(self):
     return {
