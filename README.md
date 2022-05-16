@@ -24,8 +24,8 @@ class Berserkware:
   @property
   def currentProjects(self):
     return {
-      'Computense': 'A geekforgeeks clone made with Django',
-      '[NAME REDACTED]': 'A Python web library like Django but without the junk you don't need',
+      'Computense': 'A GeekforGeeks clone made with Django',
+      '[NAME REDACTED]': 'A Python web library like Django but without the junk you don\'t need',
     }
  
   @property
