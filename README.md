@@ -23,10 +23,7 @@ class Berserkware:
     
   @property
   def currentProjects(self):
-    return {
-      'Computense': 'A geekforgeeks clone made with Django',
-      '[NAME REDACTED]': 'A Python web library like Django but without the junk you don't need',
-    }
+    return ['Learning C++']
  
   @property
   def ContactMe(self):
